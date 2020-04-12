@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<title>Document</title>
+</head>
+<style>
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
+
+	.mat {
+		border: 0.5px dotted;
+	}
+
+	p {
+		font-weight: bold;
+	}
+</style>
+
+<body>
+	<section class="section">
+		<div class="container has-text-centered">
+			<h1 class="title">Implementación LDA (Linear Discriminant Analysis)</h1>
+			<h2 class="subtitle">José de Jesús Sánchez Aguilar - 156190</h2>
+		</div>
+		<br>
+		<div class="container">
+			<div class="columns">
+
+				<div class="column box">
+					<h2 class="subtitle"><b> Correlación entre las variables independientes</b></h2>
+					<p>Se puede observar que exitste una correlación entre el largo y ancho del pétalo</p>
+					<img class="responsive" src="correlation.png" alt="correlation plot">
+				</div>
+				<div class="column box">
+					<h2 class="subtitle">
+						<b>Datos de entrenamiento y prueba y cálculo de LDA</b>
+					</h2>
+					<img style="widows: 90%;" src="lda.png" alt="">
+				</div>
+
+			</div>
+			<div class="box">
+				<h2 class="subtitle"><b>Observaciones por cada especie</b></h2>
+				<div class="columns">
+					<img class="column" src="histograms.png" alt="">
+					<img class="column" src="bplot.png" alt="">
+				</div>
+				<p>Se puede observar que el grupo "Setosa" no se empalma con las otras especies. Mientras que
+					Versicolor y Verginica sí
+				</p>
+			</div>
+			<div class="box has-text-centered">
+				<h2 class="subtitle">
+					<b> Matrices de confusión</b>
+				</h2>
+				<div class="columns">
+					<div class="column mat">
+						<p class="subtitle">Datos de entrenamiento</p>
+						<img src="testData_confusionMatrix.png" alt="">
+						<br>
+						<b>Precisión: 97.34%</b>
+					</div>
+					<div class="column mat">
+						<p class="subtitle">Datos de prueba</p>
+						<img src="trainingData_confusionMatrix.png" alt="">
+						<br>
+						<b>Precisión: 100%</b>
+					</div>
+				</div>
+				<p class="subtitle">Se puede inferir que todas las flores pertenecen a su respectiva especie</p>
+			</div>
+		</div>
+
+
+	</section>
+
+</body>
+
+</html>
