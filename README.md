@@ -1,5 +1,10 @@
-# Machine-Learning
+# Aprendizaje de Máquina - Primavera 2020
 
+### Elaboraron:
+* Luis Fernando Peña Flores - 158488
+* José de Jesús Sánchez Aguilar - 156190
+
+### Ejercicios:
 1. Algoritmo LDA en R
 2. Método de ascenso por gradiente en Python
     * Parámetros: Lotes, estocástico y batch
