@@ -1,3 +1,3 @@
 # Linear Discriminant Analysis
 
-[Results](https://bit.ly/3a2jyvF)
+[Results](https://htmlpreview.github.io/?https://github.com/SanchezPepe/Machine-Learning/blob/master/1_LDA/LDA.html)
